@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>Свадебное приглашение | Зоя & Эрдем</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="nav-dots" id="navDots"></div>
+
+    <div class="fullpage-container" id="fullpageContainer">
+
+        <!-- БЛОК 1: Картинка колец + Заголовок + Акцентные имена + Дата -->
+        <section class="fullscreen-block" id="block1">
+            <div class="block-content">
+                <div class="invitation-piece">
+
+                    <!-- Верхняя рамка -->
+                    <div class="frame-top">
+                        <img src="images/Frame_10.png" alt="декор" class="frame-image">
+                    </div>
+
+                    <div class="rings-image">
+                        <img src="images/кольца.png" alt="Обручальные кольца">
+                    </div>
+                    <div class="invitation-subtitle">
+                        ПРИГЛАШЕНИЕ НА СВАДЬБУ
+                    </div>
+                    <div class="hero-names">
+                        <span class="name-bride">Зоя</span>
+                        <span class="ampersand">&</span>
+                        <span class="name-groom">Эрдем</span>
+                    </div>
+                    <div class="wedding-date-small">
+                        07 августа 2026, г. Улан-Удэ
+                    </div>
+                    <!-- Нижняя рамка -->
+                    <div class="frame-bottom">
+                        <img src="images/Frame_11.png" alt="декор" class="frame-image">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-hint" onclick="scrollToNext()">↓</div>
+        </section>
+
+        <!-- БЛОК 2: Приветствие + текст -->
+        <section class="fullscreen-block" id="block2">
+            <div class="block-content">
+                <div class="invitation-piece">
+                    <div class="names-line_normal">
+                        <p>Дорогие родные и друзья!</p>
+                    </div>
+                    <div class="greeting">
+                        <p>Мы рады сообщить Вам,<br>
+                            что скоро состоится самое главное торжество<br>
+                            в нашей жизни – день нашей свадьбы!<br>
+                        Нам очень хочется<br>
+                            разделить этот особенный день <br>с Вами!</p>
+                    </div>
+
+                    <!-- Нижняя рамка -->
+                    <div class="frame-bottom">
+                        <img src="images/Frame_13.png" alt="декор" class="frame-image">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-hint" onclick="scrollToNext()">↓</div>
+        </section>
+
+        <!-- БЛОК 3: Имена + портреты -->
+        <section class="fullscreen-block" id="block3">
+            <div class="block-content">
+                <div class="invitation-piece">
+                    <div class="names-line">
+                        Там где посеяна любовь,<br>
+                        рождается счастье!
+                    </div>
+                    <div class="portraits-container">
+                        <div class="portrait-card">
+                            <div class="portrait-photo">
+                                <img src="images/Фото1.png" alt="Эрдэм">
+                            </div>
+                            <div class="portrait-name">Эрдэм</div>
+                        </div>
+                        <div class="portrait-card">
+                            <div class="portrait-photo">
+                                <img src="images/Фото2.png" alt="Зоя">
+                            </div>
+                            <div class="portrait-name">Зоя</div>
+                        </div>
+                    </div>
+                    <!-- Нижняя рамка -->
+                    <div class="frame-bottom">
+                        <img src="images/Frame_14.png" alt="декор" class="frame-image">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-hint" onclick="scrollToNext()">↓</div>
+        </section>
+
+        <!-- БЛОК 4: Локация -->
+        <section class="fullscreen-block" id="block4">
+            <div class="block-content">
+                <div class="invitation-piece">
+                    <!-- Верхняя рамка -->
+                    <div class="frame-top">
+                        <img src="images/Frame_15.png" alt="декор" class="frame-image">
+                    </div>
+                    <div class="names-line_normal">
+                        <p>Локация</p>
+                    </div>
+                    <div class="greeting">
+                        <p>г. Улан-Удэ,<br>ул. Комсомольская, дом 2А <br>кафе "Имя кафе"</p>
+                    </div>
+                    <div class="celebrations">
+                        <div class="day-card">
+                            <div class="weekday">Четверг</div>
+                            <div class="date-number">6</div>
+                        </div>
+                        <div class="day-card">
+                            <div class="weekday">Пятница</div>
+                            <div class="date-number-wrapper">
+                                <img src="images/Vector.png" alt="декор" class="vector-overlay">
+                                <span class="date-number">7</span>
+                            </div>
+                        </div>
+                        <div class="day-card">
+                            <div class="weekday">Суббота</div>
+                            <div class="date-number">8</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-hint" onclick="scrollToNext()">↓</div>
+        </section>
+
+        <!-- БЛОК 5: Подарки -->
+        <section class="fullscreen-block" id="block5">
+            <div class="block-content">
+                <div class="invitation-piece">
+                    <div class="names-line">
+                        <p>От всего сердца!</p>
+                    </div>
+                    <div class="gift-note">
+                        <p>Самый лучший подарок для нас -<br>
+                            это ваше присутствие и тёплые слова.<br>
+                        Цветы прекрасны, но их красота мимолётна,<br> а нам хочется сохранить <br>
+                            память о вашей заботе надолго.<br><br>
+                        Мы будем безмерно рады <br>
+                            любой другой альтернативе.</p>
+                    </div>
+                    <hr>
+                    <div class="small-note">
+                        Ждём вас с нетерпением!
+                    </div>
+                    <!-- Нижняя рамка -->
+                    <div class="frame-bottom">
+                        <img src="images/Frame_16.png" alt="декор" class="frame-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- БЛОК 6: Форма ответа (Яндекс Форма) -->
+        <section class="fullscreen-block" id="block6">
+            <div class="block-content">
+                <div class="invitation-piece">
+                    <div class="greeting">
+                        <p><strong>Пожалуйста, подтвердите присутствие:</strong></p>
+                    </div>
+                    <div class="yandex-form-wrapper">
+                        <iframe src="https://forms.yandex.ru/u/6a1ea9e9f47e7325eb2d5479?iframe=1"
+                                width="100%"
+                                height="500"
+                                frameborder="0">
+                            Загрузка…
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-hint" onclick="scrollToNext()">↓</div>
+        </section>
+
+    </div> <!-- закрытие fullpage-container -->
+
+<script>
+    // ========== ПОЛНОЭКРАННАЯ НАВИГАЦИЯ ==========
+    const container = document.getElementById('fullpageContainer');
+    const blocks = document.querySelectorAll('.fullscreen-block');
+    const navDotsContainer = document.getElementById('navDots');
+    let currentBlockIndex = 0;
+    let isScrolling = false;
+
+    // Создаём навигационные точки
+    blocks.forEach((block, index) => {
+        const dot = document.createElement('button');
+        dot.classList.add('nav-dot');
+        if (index === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => {
+            block.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        navDotsContainer.appendChild(dot);
+    });
+
+    const dots = document.querySelectorAll('.nav-dot');
+
+    function updateActiveDot() {
+        const scrollPosition = container.scrollTop;
+        const blockHeight = blocks[0]?.offsetHeight || window.innerHeight;
+        const activeIndex = Math.round(scrollPosition / blockHeight);
+        if (activeIndex !== currentBlockIndex && activeIndex >= 0 && activeIndex < blocks.length) {
+            currentBlockIndex = activeIndex;
+            dots.forEach((dot, idx) => {
+                if (idx === currentBlockIndex) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+        }
+    }
+
+    window.scrollToNext = function() {
+        const nextIndex = currentBlockIndex + 1;
+        if (nextIndex < blocks.length) {
+            blocks[nextIndex].scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    };
+
+    container.addEventListener('scroll', () => {
+        requestAnimationFrame(updateActiveDot);
+    });
+
+    window.addEventListener('resize', () => {
+        updateActiveDot();
+    });
+
+    setTimeout(updateActiveDot, 100);
+
+    // Прокрутка колесиком
+    container.addEventListener('wheel', (e) => {
+        if (isScrolling) return;
+        const delta = e.deltaY;
+        const blockHeight = blocks[0]?.offsetHeight || window.innerHeight;
+        const scrollTop = container.scrollTop;
+        const currentBlock = Math.round(scrollTop / blockHeight);
+
+        if (delta > 0 && currentBlock < blocks.length - 1) {
+            isScrolling = true;
+            blocks[currentBlock + 1].scrollIntoView({ behavior: 'smooth', block: 'start' });
+            setTimeout(() => { isScrolling = false; }, 800);
+        } else if (delta < 0 && currentBlock > 0) {
+            isScrolling = true;
+            blocks[currentBlock - 1].scrollIntoView({ behavior: 'smooth', block: 'start' });
+            setTimeout(() => { isScrolling = false; }, 800);
+        }
+    });
+
+    dots.forEach(dot => {
+        dot.addEventListener('click', (e) => {
+            e.preventDefault();
+        });
+    });
+</script>
+
+</body>
+</html>
